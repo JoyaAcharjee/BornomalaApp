@@ -4,10 +4,75 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_gravity="center"
-
+    android:gravity="center"
+    android:orientation="vertical"
     tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="20dp"
 
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/soroborno"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bengonborno"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dekhi_o_pori"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/colo_akhi"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/onushilon"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+
+            />
+    </LinearLayout>
 
 
 

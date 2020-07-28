@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Bornomala</string>
+    <string name="soroborno">Saroborno</string>
+    <string name="bengonborno">Benjonborno</string>
+    <string name="dekhi_o_pori">Dekhi o pori</string>
+    <string name="colo_akhi">Colo akhi</string>
+    <string name="onushilon">Onushilon</string>
 </resources>
