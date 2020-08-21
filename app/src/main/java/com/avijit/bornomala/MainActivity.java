@@ -33,11 +33,43 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-      openSoroborno();
+        switch (v.getId()){
+            case R.id.sorobornoButton : openSoroborno();break;
+            case R.id.benjonbornoButton : openBenjonborno();break;
+            case R.id.dekhiPoriButton : openDekhiPori();break;
+            case R.id.coloAkiButton : openColoAki();break;
+            case R.id.onushilonButton : openOnushilon();break;
+
+
+
+            // Evabe case diye id gulo match korate hobe.
+        }
+
     }
     public void  openSoroborno()
     {
         intent=new Intent(MainActivity.this,Developer.class);
         startActivity(intent);
     }
+    public void  openBenjonborno()
+    {
+        intent=new Intent(MainActivity.this,Bengonborno.class);
+        startActivity(intent);
+    }
+    public void  openDekhiPori()
+    {
+        intent=new Intent(MainActivity.this,Developer.class);
+        startActivity(intent);
+    }
+    public void  openColoAki()
+    {
+        intent=new Intent(MainActivity.this,Developer.class);
+        startActivity(intent);
+    }
+    public void  openOnushilon()
+    {
+        intent=new Intent(MainActivity.this,Developer.class);
+        startActivity(intent);
+    }
+
 }
